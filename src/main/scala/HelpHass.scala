@@ -1,7 +1,7 @@
 /**
  * Created by fmap on 12.06.15.
  */
-object Hass extends App {
+object HelpHass extends App {
 
   //we represent a graph node simply by the character which is its label
   type Node = Char
@@ -58,7 +58,6 @@ object Hass extends App {
       case (Some(path1)  , Some(path2)) => path1.size<path2.size
     })
   }
-
 
   //some test scenarios
 
